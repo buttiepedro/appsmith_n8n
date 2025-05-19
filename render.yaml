@@ -2,7 +2,7 @@ services:
   - type: web
     name: n8n
     env: docker
-    repo: https://github.com/TU_USUARIO/REPO_NAME
+    repo: https://github.com/buttiepedro/appsmith_n8n
     plan: starter
     region: oregon
     dockerContext: .
@@ -11,7 +11,7 @@ services:
   - type: web
     name: appsmith
     env: docker
-    repo: https://github.com/TU_USUARIO/REPO_NAME
+    repo: https://github.com/buttiepedro/appsmith_n8n
     plan: starter
     region: oregon
     dockerContext: .
