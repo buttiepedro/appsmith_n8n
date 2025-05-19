@@ -1,0 +1,18 @@
+services:
+  - type: web
+    name: n8n
+    env: docker
+    repo: https://github.com/TU_USUARIO/REPO_NAME
+    plan: starter
+    region: oregon
+    dockerContext: .
+    dockerfilePath: ./Dockerfile.n8n
+
+  - type: web
+    name: appsmith
+    env: docker
+    repo: https://github.com/TU_USUARIO/REPO_NAME
+    plan: starter
+    region: oregon
+    dockerContext: .
+    dockerfilePath: ./Dockerfile.appsmith
